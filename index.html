@@ -1,429 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zellion – Modern Real Estate Platform</title>
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <img src="images/logo.png" alt="Zellion" class="logo">
-                <span class="logo-text">Zellion</span>
-            </div>
-            
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#features" class="nav-link">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#process" class="nav-link">How It Works</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <button class="cta-button">Get Started</button>
-                </li>
-            </ul>
-            
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zellion - Find Your Dream Home | Real Estate Mobile App</title>
+    <meta
+      name="description"
+      content="Discover the perfect property with Zellion's smart real estate platform. Search, explore, and connect with top properties. Download our mobile app today!"
+    />
+    <meta name="author" content="Zellion" />
 
+    <meta
+      property="og:title"
+      content="Zellion - Find Your Dream Home | Real Estate Mobile App"
+    />
+    <meta
+      property="og:description"
+      content="Discover the perfect property with Zellion's smart real estate platform. Search, explore, and connect with top properties. Download our mobile app today!"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/logo.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/logo.png" />
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/logo.png">
+</head>
+
+<body>
     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-background">
-            <div class="gradient-orb orb-1"></div>
-            <div class="gradient-orb orb-2"></div>
-            <div class="gradient-orb orb-3"></div>
-        </div>
-        
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <div class="hero-badge">
-                        <i class="fas fa-home"></i>
-                        <span>Real Estate Simplified</span>
+    <section class="hero-section">
+        <!-- Background Image -->
+        <div class="hero-bg"></div>
+
+        <!-- Content -->
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Left Side - Text Content -->
+                <div class="hero-content animate-fade-in">
+                    <div class="hero-brand">
+                        <img src="assets/logo.png" alt="Zellion" class="smartphone-icon" />
+                        <!-- <svg class="smartphone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                            <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                        </svg> -->
+                        <div style=" position: relative; left: -5px; width: 1px; height: 25px; background-color: rgb(121, 121, 121);"></div>
+                        <span class="brand-name">Zellion</span>
                     </div>
-                    
+
                     <h1 class="hero-title">
-                        Find Your Perfect
-                        <span class="gradient-text">Home</span>
-                        in Zambia
+                        Find Your
+                        <span class="title-accent">Dream Home</span>
                     </h1>
-                    
+
                     <p class="hero-description">
-                        Discover verified properties, connect with trusted agents, and close deals faster with Zellion's modern real estate platform. Your dream home is just a click away.
+                        Discover the perfect property with Zellion's smart real estate
+                        platform. Search, explore, and connect with top properties in your
+                        area.
                     </p>
-                    
-                    <div class="hero-buttons">
-                        <button class="primary-button">
-                            <i class="fas fa-search"></i>
-                            Search Properties
-                        </button>
-                        <button class="secondary-button">
-                            <i class="fas fa-play"></i>
-                            Watch Demo
-                        </button>
-                    </div>
-                    
+
+                    <!-- Stats -->
                     <div class="hero-stats">
-                        <div class="stat">
-                            <span class="stat-number">10K+</span>
-                            <span class="stat-label">Properties</span>
+                        <div class="stat-item">
+                            <div class="stat-number">5K+</div>
+                            <div class="stat-label">Listings</div>
                         </div>
-                        <div class="stat">
-                            <span class="stat-number">500+</span>
-                            <span class="stat-label">Agents</span>
+                        <div class="stat-item">
+                            <div class="stat-number">1K+</div>
+                            <div class="stat-label">Downloads</div>
                         </div>
-                        <div class="stat">
-                            <span class="stat-number">50K+</span>
-                            <span class="stat-label">Happy Clients</span>
+                        <div class="stat-item">
+                            <svg class="star-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon>
+                            </svg>
+                            <span class="stat-number">4.3</span>
+                            <span class="stat-label">Rating</span>
                         </div>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="hero-buttons">
+                        <button class="btn btn-cta">
+                            Download on Play Store
+                            <svg class="download-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                            </svg>
+                        </button>
+                        <button class="btn btn-download">
+                            Download on App Store
+                            <svg class="download-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.19 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z"/>
+                            </svg>
+                        </button>
                     </div>
                 </div>
-                
-                <div class="hero-visual">
-                    <div class="phone-mockup">
-                        <img src="screenshots/1.png" alt="Zellion App" class="app-screenshot">
-                        <div class="floating-card card-1">
-                            <i class="fas fa-home"></i>
-                            <div>
-                                <h4>New Listing</h4>
-                                <p>3 bed, 2 bath villa</p>
-                            </div>
-                        </div>
-                        <div class="floating-card card-2">
-                            <i class="fas fa-chart-line"></i>
-                            <div>
-                                <h4>Price Alert</h4>
-                                <p>Market update</p>
-                            </div>
-                        </div>
+
+                <!-- Right Side - App Mockup -->
+                <div class="hero-mockup animate-float">
+                    <div class="mockup-container">
+                        <img src="assets/app-mockup.png" alt="Zellion Mobile App" class="mockup-image" />
+                        <div class="new-badge">New!</div>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <div class="scroll-indicator">
-            <div class="scroll-arrow"></div>
-        </div>
+
+        <!-- Decorative Elements -->
+        <div class="decorative-element decorative-1"></div>
+        <div class="decorative-element decorative-2"></div>
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="features">
+    <section class="features-section">
         <div class="container">
-            <div class="section-header">
-                <div class="section-badge">
-                    <i class="fas fa-star"></i>
-                    <span>Features</span>
-                </div>
+            <div class="section-header animate-fade-in">
                 <h2 class="section-title">
-                    Powerful Tools for Modern
-                    <span class="gradient-text">Real Estate</span>
+                    Everything You Need to
+                    <span class="title-accent">Find Perfect Properties</span>
                 </h2>
                 <p class="section-description">
-                    Everything you need to buy, sell, or rent properties with confidence and ease.
+                    Zellion combines cutting-edge technology with real estate expertise to deliver 
+                    the most comprehensive property search experience.
                 </p>
             </div>
             
             <div class="features-grid">
-                <div class="feature-card">
+                <div class="feature-card animate-slide-up" style="animation-delay: 0s">
                     <div class="feature-icon">
-                        <i class="fas fa-search"></i>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="M21 21l-4.35-4.35"></path>
+                        </svg>
                     </div>
-                    <h3>Smart Property Search</h3>
-                    <p>Advanced filters and AI-powered recommendations to find your perfect match.</p>
-                    <div class="feature-highlight">
-                        <span>AI-Powered</span>
-                    </div>
+                    <h3 class="feature-title">Smart Search</h3>
+                    <p class="feature-description">AI-powered property search with advanced filters for location, price, amenities, and more.</p>
                 </div>
-                
-                <div class="feature-card">
+
+                <div class="feature-card animate-slide-up" style="animation-delay: 0.1s">
                     <div class="feature-icon">
-                        <i class="fas fa-shield-alt"></i>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
                     </div>
-                    <h3>Verified Listings</h3>
-                    <p>All properties are verified by our team to ensure authenticity and accuracy.</p>
-                    <div class="feature-highlight">
-                        <span>100% Verified</span>
-                    </div>
+                    <h3 class="feature-title">Interactive Maps</h3>
+                    <p class="feature-description">Explore neighborhoods with detailed maps, local amenities, and proximity insights.</p>
                 </div>
-                
-                <div class="feature-card">
+
+                <div class="feature-card animate-slide-up" style="animation-delay: 0.2s">
                     <div class="feature-icon">
-                        <i class="fas fa-handshake"></i>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="1" y="3" width="15" height="13"></rect>
+                            <path d="m16 8 2 2-2 2"></path>
+                            <path d="m21 12 2 2-2 2"></path>
+                        </svg>
                     </div>
-                    <h3>Trusted Agents</h3>
-                    <p>Connect with certified real estate professionals in your area.</p>
-                    <div class="feature-highlight">
-                        <span>Certified</span>
-                    </div>
+                    <h3 class="feature-title">Mortgage Calculator</h3>
+                    <p class="feature-description">Built-in tools to calculate payments, compare rates, and estimate affordability.</p>
                 </div>
-                
-                <div class="feature-card">
+
+                <div class="feature-card animate-slide-up" style="animation-delay: 0.3s">
                     <div class="feature-icon">
-                        <i class="fas fa-mobile-alt"></i>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
                     </div>
-                    <h3>Mobile First</h3>
-                    <p>Beautiful mobile apps for iOS and Android with offline capabilities.</p>
-                    <div class="feature-highlight">
-                        <span>Cross-Platform</span>
-                    </div>
+                    <h3 class="feature-title">Virtual Tours</h3>
+                    <p class="feature-description">Immersive 360° tours and high-quality photos for every listing.</p>
                 </div>
-                
-                <div class="feature-card">
+
+                <div class="feature-card animate-slide-up" style="animation-delay: 0.4s">
                     <div class="feature-icon">
-                        <i class="fas fa-chart-bar"></i>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
                     </div>
-                    <h3>Market Analytics</h3>
-                    <p>Real-time market data and trends to make informed decisions.</p>
-                    <div class="feature-highlight">
-                        <span>Real-Time</span>
-                    </div>
+                    <h3 class="feature-title">Expert Network</h3>
+                    <p class="feature-description">Connect directly with verified agents, brokers, and real estate professionals.</p>
                 </div>
-                
-                <div class="feature-card">
+
+                <div class="feature-card animate-slide-up" style="animation-delay: 0.5s">
                     <div class="feature-icon">
-                        <i class="fas fa-lock"></i>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
                     </div>
-                    <h3>Secure Transactions</h3>
-                    <p>End-to-end encrypted transactions with escrow protection.</p>
-                    <div class="feature-highlight">
-                        <span>Bank-Grade</span>
+                    <h3 class="feature-title">Secure Platform</h3>
+                    <p class="feature-description">Bank-level security for all transactions and personal information.</p>
+                </div>
+
+                <div class="feature-card animate-slide-up" style="animation-delay: 0.6s">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                            <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                        </svg>
                     </div>
+                    <h3 class="feature-title">Mobile First</h3>
+                    <p class="feature-description">Seamless experience across all devices with offline capabilities.</p>
+                </div>
+
+                <div class="feature-card animate-slide-up" style="animation-delay: 0.7s">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="23,6 13.5,15.5 8.5,10.5 1,18"></polyline>
+                            <polyline points="17,6 23,6 23,12"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Market Analytics</h3>
+                    <p class="feature-description">Real-time market trends, price predictions, and investment insights.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Showcase Section -->
+    <section class="showcase-section">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <div class="section-badge">
-                        <i class="fas fa-building"></i>
-                        <span>About Zellion</span>
-                    </div>
+            <div class="showcase-grid">
+                
+                <!-- Left Side - Image -->
+                <div class="showcase-image animate-fade-in">
+                    <img src="assets/properties-showcase.jpg" alt="Property Showcase" class="showcase-img" />
+                    <div class="showcase-overlay"></div>
                     
-                    <h2 class="section-title">
-                        Revolutionizing Real Estate
-                        <span class="gradient-text">in Zambia</span>
+                    <!-- Floating Stats Card -->
+                    <div class="stats-card">
+                        <div class="stats-item">
+                            <div class="stats-number primary">50,000+</div>
+                            <div class="stats-label">Active Listings</div>
+                        </div>
+                        <div class="stats-item">
+                            <div class="stats-number success">2,500+</div>
+                            <div class="stats-label">Sold This Month</div>
+                        </div>
+                        <div class="stats-item">
+                            <div class="stats-number secondary">500+</div>
+                            <div class="stats-label">New Daily</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Side - Content -->
+                <div class="showcase-content animate-slide-up">
+                    <h2 class="showcase-title">
+                        Explore Premium
+                        <span class="title-accent">Real Estate Portfolio</span>
                     </h2>
                     
-                    <p class="about-description">
-                        Zellion is more than just a real estate platform – we're your trusted partner in finding the perfect property. With cutting-edge technology and local expertise, we make property transactions seamless and secure.
+                    <p class="showcase-description">
+                        From cozy starter homes to luxury estates, Zellion features the most 
+                        comprehensive collection of verified properties. Every listing includes 
+                        detailed information, professional photography, and virtual tours.
                     </p>
                     
-                    <div class="about-features">
-                        <div class="about-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Comprehensive property database</span>
+                    <!-- Property Types -->
+                    <div class="property-types">
+                        <div class="property-type">
+                            <div class="property-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                    <polyline points="9,22 9,12 15,12 15,22"></polyline>
+                                </svg>
+                            </div>
+                            <div class="property-info">
+                                <div class="property-header">
+                                    <h3 class="property-title">Residential Homes</h3>
+                                    <span class="property-count">25,000+</span>
+                                </div>
+                                <p class="property-desc">Single-family homes, condos, and townhouses</p>
+                            </div>
                         </div>
-                        <div class="about-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Expert market analysis</span>
+
+                        <div class="property-type">
+                            <div class="property-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M6 2 3 6v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                            </div>
+                            <div class="property-info">
+                                <div class="property-header">
+                                    <h3 class="property-title">Commercial Properties</h3>
+                                    <span class="property-count">8,500+</span>
+                                </div>
+                                <p class="property-desc">Office spaces, retail, and industrial properties</p>
+                            </div>
                         </div>
-                        <div class="about-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>24/7 customer support</span>
-                        </div>
-                        <div class="about-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Secure transaction processing</span>
+
+                        <div class="property-type">
+                            <div class="property-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="property-info">
+                                <div class="property-header">
+                                    <h3 class="property-title">Luxury Estates</h3>
+                                    <span class="property-count">3,200+</span>
+                                </div>
+                                <p class="property-desc">Premium properties and exclusive listings</p>
+                            </div>
                         </div>
                     </div>
                     
-                    <button class="primary-button">
-                        <i class="fas fa-arrow-right"></i>
-                        Learn More
+                    <button class="btn btn-hero">
+                        Browse Properties
+                        <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12,5 19,12 12,19"></polyline>
+                        </svg>
                     </button>
                 </div>
                 
-                <div class="about-visual">
-                    <div class="about-image-container">
-                        <img src="images/about-1-light.png" alt="About Zellion" class="about-image">
-                        <div class="floating-stats">
-                            <div class="stat-card">
-                                <h4>98%</h4>
-                                <p>Success Rate</p>
-                            </div>
-                            <div class="stat-card">
-                                <h4>5★</h4>
-                                <p>User Rating</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Process Section -->
-    <section id="process" class="process">
+    <!-- Download Section -->
+    <section class="download-section">
+        <!-- Background Elements -->
+        <div class="bg-element bg-element-1"></div>
+        <div class="bg-element bg-element-2"></div>
+        
         <div class="container">
-            <div class="section-header">
-                <div class="section-badge">
-                    <i class="fas fa-cogs"></i>
-                    <span>How It Works</span>
-                </div>
-                <h2 class="section-title">
-                    Simple Steps to Your
-                    <span class="gradient-text">Dream Home</span>
+            <div class="download-header animate-fade-in">
+                <h2 class="download-title">
+                    Ready to Find Your
+                    <span class="title-accent">Perfect Home?</span>
                 </h2>
-                <p class="section-description">
-                    Our streamlined process makes finding and securing your perfect property easier than ever.
+                <p class="download-description">
+                    Join millions of users who trust Zellion for their real estate needs. 
+                    Download the app today and start your journey.
                 </p>
             </div>
             
-            <div class="process-steps">
-                <div class="process-step">
-                    <div class="step-number">01</div>
-                    <div class="step-icon">
-                        <i class="fas fa-search"></i>
+            <!-- Download Cards -->
+            <div class="download-cards">
+                
+                <!-- App Store -->
+                <div class="download-card">
+                    <div class="download-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" style="width: 2rem; height: 2rem;">
+                            <path d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.19 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z"/>
+                        </svg>
                     </div>
-                    <h3>Search & Discover</h3>
-                    <p>Browse thousands of verified properties using our advanced search filters and AI recommendations.</p>
+                    <h3 class="download-card-title">iOS App Store</h3>
+                    <p class="download-card-desc">Download for iPhone and iPad</p>
+                    <button class="btn btn-download-full">
+                        <svg class="download-icon-btn" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.19 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z"/>
+                        </svg>
+                        Download for iOS
+                    </button>
                 </div>
                 
-                <div class="process-step">
-                    <div class="step-number">02</div>
-                    <div class="step-icon">
-                        <i class="fas fa-eye"></i>
+                <!-- Google Play -->
+                <div class="download-card">
+                    <div class="download-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" style="width: 2rem; height: 2rem;">
+                            <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                        </svg>
                     </div>
-                    <h3>View & Compare</h3>
-                    <p>Take virtual tours, view high-quality photos, and compare properties side by side.</p>
+                    <h3 class="download-card-title">Google Play</h3>
+                    <p class="download-card-desc">Download for Android devices</p>
+                    <button class="btn btn-download-full">
+                        <svg class="download-icon-btn" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                        </svg>
+                        Download for Android
+                    </button>
                 </div>
                 
-                <div class="process-step">
-                    <div class="step-number">03</div>
-                    <div class="step-icon">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <h3>Connect with Agents</h3>
-                    <p>Get matched with certified local agents who understand your needs and preferences.</p>
-                </div>
-                
-                <div class="process-step">
-                    <div class="step-number">04</div>
-                    <div class="step-icon">
-                        <i class="fas fa-key"></i>
-                    </div>
-                    <h3>Secure & Move In</h3>
-                    <p>Complete secure transactions with our escrow service and get the keys to your new home.</p>
-                </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="section-badge">
-                        <i class="fas fa-phone"></i>
-                        <span>Get in Touch</span>
-                    </div>
-                    
-                    <h2 class="section-title">
-                        Ready to Find Your
-                        <span class="gradient-text">Perfect Home?</span>
-                    </h2>
-                    
-                    <p class="contact-description">
-                        Our expert team is here to help you every step of the way. Contact us today to get started on your real estate journey.
-                    </p>
-                    
-                    <div class="contact-methods">
-                        <div class="contact-method">
-                            <div class="method-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="method-info">
-                                <h4>Call Us</h4>
-                                <p>+260 123 456 789</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-method">
-                            <div class="method-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="method-info">
-                                <h4>Email Us</h4>
-                                <p>hello@zellion.com</p>
-                            </div>
-                        </div>
-                        
-                        <div class="contact-method">
-                            <div class="method-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="method-info">
-                                <h4>Visit Us</h4>
-                                <p>Lusaka, Zambia</p>
-                            </div>
-                        </div>
-                    </div>
+            
+            <!-- Social Proof -->
+            <div class="social-proof">
+                <div class="proof-item">
+                    <svg class="proof-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                    <span class="proof-text">1K+ Active Users</span>
                 </div>
-                
-                <div class="contact-form-container">
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <label for="name">Full Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="property-type">Property Interest</label>
-                            <select id="property-type" name="property-type">
-                                <option value="">Select property type</option>
-                                <option value="buy">Looking to Buy</option>
-                                <option value="sell">Looking to Sell</option>
-                                <option value="rent">Looking to Rent</option>
-                                <option value="invest">Investment Property</option>
-                            </select>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your property needs..."></textarea>
-                        </div>
-                        
-                        <button type="submit" class="primary-button full-width">
-                            <i class="fas fa-paper-plane"></i>
-                            Send Message
-                        </button>
-                    </form>
+                <div class="proof-item">
+                    <svg class="proof-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon>
+                    </svg>
+                    <span class="proof-text">4.3/5 Rating</span>
+                </div>
+                <div class="proof-item">
+                    <svg class="proof-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                        <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                    </svg>
+                    <span class="proof-text">iOS & Android</span>
                 </div>
             </div>
         </div>
@@ -432,65 +412,114 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
+            <!-- Main Footer Content -->
+            <div class="footer-grid">
+                <!-- Brand Section -->
                 <div class="footer-brand">
                     <div class="footer-logo">
-                        <img src="images/logo.png" alt="Zellion">
-                        <span>Zellion</span>
+                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                            <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                        </svg>
+                        <span class="logo-text">Zellion</span>
                     </div>
-                    <p>Making real estate simple, secure, and accessible for everyone in Zambia.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <p class="footer-description">
+                        The leading real estate platform connecting buyers, sellers, and
+                        agents with smart technology and comprehensive property data.
+                    </p>
+
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <a href="pages/contact.html" style="color: inherit; text-decoration: none;">contact@zellionhomes.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <span>+260 972 841 363</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>Lusaka, Zambia</span>
+                        </div>
                     </div>
                 </div>
-                
-                <div class="footer-links">
-                    <div class="link-group">
-                        <h4>Platform</h4>
-                        <a href="#">Search Properties</a>
-                        <a href="#">List Property</a>
-                        <a href="#">Find Agents</a>
-                        <a href="#">Market Data</a>
-                    </div>
-                    
-                    <div class="link-group">
-                        <h4>Company</h4>
-                        <a href="#">About Us</a>
-                        <a href="#">Careers</a>
-                        <a href="#">Press</a>
-                        <a href="#">Blog</a>
-                    </div>
-                    
-                    <div class="link-group">
-                        <h4>Support</h4>
-                        <a href="#">Help Center</a>
-                        <a href="#">Contact Us</a>
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms of Service</a>
-                    </div>
+
+                <!-- Footer Links -->
+                <div class="footer-section">
+                    <h3 class="footer-section-title">Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="pages/about-us.html" class="footer-link">About Us</a></li>
+                        <li><a href="pages/features.html" class="footer-link">Features</a></li>
+                        <li><a href="pages/contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-section-title">Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="pages/help-center.html" class="footer-link">Help Center</a></li>
+                        <li><a href="pages/faq.html" class="footer-link">FAQ</a></li>
+                        <li><a href="pages/contact.html" class="footer-link">Support</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-section-title">Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="pages/privacy-policy.html" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="pages/terms-of-service.html" class="footer-link">Terms of Service</a></li>
+                    </ul>
                 </div>
             </div>
-            
+
+            <!-- Bottom Section -->
             <div class="footer-bottom">
-                <p>&copy; 2024 Zellion. All rights reserved.</p>
-                <div class="app-downloads">
-                    <a href="#" class="app-download">
-                        <i class="fab fa-apple"></i>
-                        <span>App Store</span>
-                    </a>
-                    <a href="#" class="app-download">
-                        <i class="fab fa-google-play"></i>
-                        <span>Google Play</span>
-                    </a>
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        © 2025 Zellion. All rights reserved.
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <span class="sr-only">Twitter</span>
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="sr-only">Facebook</span>
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="sr-only">LinkedIn</span>
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="sr-only">Instagram</span>
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
